@@ -1,0 +1,57 @@
+<!--
+    Nome: Matteo
+	Cognome: Lattanzio
+
+	Index.php = pagina html index da cui avviene il login, nel caso di 
+                conferma di successo dopo le dovute verifiche avverra' al sito principale;
+                Nel caso di errore, ovvero in cui i dati non sono esistenti, verra' dato errore dal sistema.
+
+                Nel caso l'utente non si fosse mai registrato puo' accedere alla pagina di registrazione dalla pagina index 
+                e registrare i suoi dati.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="css/graficaPagine.css" rel="stylesheet" type="text/css">
+        <script src="js/validazione.js"></script> 
+        <title>Login AdsSite</title>
+    </head>
+
+    <body>
+        
+            <div id="total_zone">
+                <div id="main_zone">
+                    <h2>Login</h2>
+                        <form name="form_login" method="post" action="login.php">
+                            <input type="hidden" name="id_iscritto">
+                                <table>       
+                                    <tr>
+                                        <td>Email: </td>
+                                        <td> <input type="email" class="input" name="email" id="email"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Password: </td>
+                                        <td> <input type="password" class="input" name="password" id="password"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Non sei ancora registrato? </td>
+                                        <td><a href="index_registrazione.html" target="_self">Registrati!</a></td>
+                                    </tr>
+                                </table>
+                            <button class="button" onclick="return controlloLogin();"><span>Accedi</span></button> <!-- richiamo alla funzione javascript per il controllo delle credenziali in input-->
+                        </form>
+                        
+                        <div id="error-messages"></div>
+                </div>
+
+            </div>
+
+        <div id="validation">
+            <p>   
+                <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+        </div>
+
+    </body>
+  
+</html>

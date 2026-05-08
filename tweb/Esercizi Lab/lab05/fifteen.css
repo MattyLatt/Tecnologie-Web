@@ -1,0 +1,178 @@
+/* testo pagina */
+body {
+    font-size: 14pt;
+    text-align: center;
+    font-style: italic;
+}
+
+#puzzlearea {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+
+/* messaggio di vittoria */
+#message {
+    color: red;
+    font-size: 30pt;
+}
+
+#puzzlearea div {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border: 5px solid black;
+    font-size: 40pt;
+    background-image: url("./background.jpg");
+    cursor: default;
+}
+
+#puzzlearea div.selectable:hover {
+    background-image: linear-gradient(rgba(75, 168, 255, 0.8),
+    rgba(75, 168, 255, 0.8)), url("./background.jpg");
+    border-color: red;
+    color: red;
+}
+
+/* image positioning */
+#puzzlearea div:nth-child(1) {
+    background-position: 0px 0px;
+}
+
+#puzzlearea div:nth-child(2) {
+    background-position: -100px 0px;
+}
+
+#puzzlearea div:nth-child(3) {
+    background-position: -200px 0px;
+}
+
+#puzzlearea div:nth-child(4) {
+    background-position: -300px 0px;
+}
+
+#puzzlearea div:nth-child(5) {
+    background-position: 0px -100px;
+}
+
+#puzzlearea div:nth-child(6) {
+    background-position: -100px -100px;
+}
+
+#puzzlearea div:nth-child(7) {
+    background-position: -200px -100px;
+}
+
+#puzzlearea div:nth-child(8) {
+    background-position: -300px -100px;
+}
+
+#puzzlearea div:nth-child(9) {
+    background-position: 0px -200px;
+}
+
+#puzzlearea div:nth-child(10) {
+    background-position: -100px -200px;
+}
+
+#puzzlearea div:nth-child(11) {
+    background-position: -200px -200px;
+}
+
+#puzzlearea div:nth-child(12) {
+    background-position: -300px -200px;
+}
+
+#puzzlearea div:nth-child(13) {
+    background-position: 0px -300px;
+}
+
+#puzzlearea div:nth-child(14) {
+    background-position: -100px -300px;
+}
+
+#puzzlearea div:nth-child(15) {
+    background-position: -200px -300px;
+}
+
+/* positioning dei div in base all' id */
+#tile_1_1 {
+    top: 0px;
+    left: 0px;
+}
+
+#tile_1_2 {
+    top: 0px;
+    left: 100px;
+}
+
+#tile_1_3 {
+    top: 0px;
+    left: 200px;
+}
+
+#tile_1_4 {
+    top: 0px;
+    left: 300px;
+}
+
+#tile_2_1 {
+    top: 100px;
+    left: 0px;
+}
+
+#tile_2_2 {
+    top: 100px;
+    left: 100px;
+}
+
+#tile_2_3 {
+    top: 100px;
+    left: 200px;
+}
+
+#tile_2_4 {
+    top: 100px;
+    left: 300px;
+}
+
+#tile_3_1 {
+    top: 200px;
+    left: 0px;
+}
+
+#tile_3_2 {
+    top: 200px;
+    left: 100px;
+}
+
+#tile_3_3 {
+    top: 200px;
+    left: 200px;
+}
+
+#tile_3_4 {
+    top: 200px;
+    left: 300px;
+}
+
+#tile_4_1 {
+    top: 300px;
+    left: 0px;
+}
+
+#tile_4_2 {
+    top: 300px;
+    left: 100px;
+}
+
+#tile_4_3 {
+    top: 300px;
+    left: 200px;
+}
+
+#tile_4_4 {
+    top: 300px;
+    left: 300px;
+}

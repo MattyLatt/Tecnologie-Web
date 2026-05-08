@@ -1,0 +1,210 @@
+    #top_zone 
+    { 
+      width:100%; 
+      max-height: 25%;
+      margin:0 auto; 
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+      background-color : #f0f0f0;
+      border-style: solid;
+      border-color: rgba(255,165,0);
+      padding: 40px 0px 40px 0px;
+    
+    }
+
+	  #total_zone 
+    {
+      height: 100%;
+    	width: 100%;
+  		text-align:center; /* alinea in centro ogni oggetto all'interno del div*/
+    }
+
+    #main_zone /* css per la finestra accesso/registrazione dove vengono inserite le credenziali*/
+    {
+      display: inline-block;
+      vertical-align:center; /* setta' l'elemento in un allineamento verticale al centro */
+      border-radius: 25px; /* setting degli angoli del div con il login per dei angoli arrotondati */
+      width: fit-content; /* impostazione larghezza riquadro */
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+      margin-top:10px; /* distanza dal margine top di 10px */
+      background-color : #f0f0f0; /* sfondo finestra login */ 
+      border-style: double; /* bordo riquadro double per la finestra login*/
+      border-color: rgba(255,165,0); /* colore del bordo */
+      padding: 10px 10px 10px 10px; /* generazione di spazio all'interno della finestra di login di 10px per ogni bordo definito */
+      margin: 0 auto;
+    }
+
+    #admin_main_zone 
+    {
+      display: inline-block; 
+      vertical-align:middle;
+      border-radius: 25px;
+      width: fit-content;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+      margin-top:10px;
+      background-color : rgba(255,165,0);
+      border-style: solid;
+      border-color: rgba(255,165,0);
+      padding: 10px 40px 10px 10px;
+      text-align: center;
+    }
+
+    *{font-family:Arial;}
+    a {text-decoration: none}
+
+    #top_bar 
+    { 
+      border-style: solid;
+      border-color: rgba(56,86,147,255);
+      vertical-align: middle;
+      width:95%; 
+      margin:0 auto; 
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+      background-color:#ffffff;
+      padding: 10px 10px 10px 10px;
+
+    }
+
+    #search_slot 
+    { 
+      border-style: solid;
+      border-color: rgba(255,165,0);
+      width:95%; 
+      margin:0 auto; 
+      max-height: 150px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+      background-color:#ffffff;
+      margin-top: 10px;
+      padding: 10px 10px 10px 10px;
+      display:table;
+
+    }
+
+    #search_bar 
+    { 
+    	height:90%;
+    	text-align: left;
+      margin:0 auto;
+      display:inline-block;
+      vertical-align: middle;
+      display:table-cell;
+      padding: 10px 10px 10px 10px;
+      margin-left: 100px;
+    }
+
+    body 
+    {
+      background-image: url("../img/backgroundmenu.jpg");
+    	background-size: cover;                     
+    	background-repeat: no-repeat;
+    	background-position: center; 
+      height: 900px;
+    }
+    
+    .select
+    {
+      background-color: rgba(255,165,0); /* Orange */
+      color: white;
+      padding: 14px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+		  margin-bottom:20px;
+    }
+
+    .input
+    {
+      background-color: rgba(255,255,255); 
+      border-color:rgba(255,165,0);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+      margin-bottom:20px;
+
+    }
+    
+    .admininput
+    {
+      background-color: rgba(255,165,0); /* Orange */
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+      width : 80%;
+      margin-bottom:20px;
+
+    }
+    
+    .button 
+    {
+      background-color: rgba(255,165,0); /* Orange */
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+		  border-color:rgba(255,165,0);
+      display: inline-block;
+      font-size: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+      margin-bottom:20px;
+      margin-top: 20px;
+
+    }
+
+    /* effetto iterrativo sul pulsante di registrazione*/
+    .button span 
+    {
+      cursor: pointer; /* impostazine cursore del mouse su pointer */
+      display: inline-block; 
+      position: relative;
+      transition: 0.5s; /* impostazione velocita' effetto della transizione */
+    }
+
+    .button span:after 
+    {
+      content: '\00bb'; /* elemento » selezionato in codice css come contenuto che appare come effetto sul button */
+      position: absolute; /* dista il posizionamento dell'elemento » evitando di lasciarlo attaccato al resto del testo nel button */
+      opacity: 0; /* rende invisibile l'elemento » se il cursore non e' puntato sul button */
+      top: 0; /* tiene allineato l'elemento » accanto al testo del button */
+      right: -20px; /* l'elemento » viene posizionato orizzontalmente a una distanza di -20px */
+      transition: 0.5s; /* durata transizione della apparizione di » sia quando il cursore lo seleziona e deseleziona*/
+    }
+
+    .button:hover span /* effetto da usare quando si passa il cursore sopra il button */
+    {
+      padding-right: 25px; /* aumento a destra del riquadro a lato destro del button */
+    }
+
+    .button:hover span:after /* effetto da usare quando si passa il cursore sopra il button riguardo all'elemento » */
+    {
+      opacity: 1; /* viene reso visibile */
+      right: 0;
+    }
+
+    .button:active /* proprieta' applicate nel momento in cui viene cliccato il button */
+    {
+      box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 0px 0 rgba(0,0,0,0.19);
+      transform: translateY(6px); /* spostamento vverticale del button nel momento in cui viene cliccato di 6px (verso il bassso) */
+    }
+
+    #error-messages {
+      color: brown;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #validation
+    {
+      position:fixed;
+      bottom:0px;
+      right: 10px;
+      opacity: 50%;
+    }

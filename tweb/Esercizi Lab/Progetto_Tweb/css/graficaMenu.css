@@ -1,0 +1,216 @@
+    #top_zone /* div dedicato a includere le proprieta' principali dei div top tra cui bar e search */
+    { 
+      width:95%; 
+      max-height: 30%;
+      margin:0 auto; /* margini di impostazione */
+      margin-bottom: 20px;
+    }
+
+    #top_bar /* div dedicato alla barra dove ce come funzione "inserimento prodotto" */
+    { 
+      vertical-align: middle;
+      width:95%; 
+      margin:0 auto; 
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+      background-color:#ffffff;
+      padding: 10px 10px 10px 10px;
+
+    }
+
+    #search_slot /* div dedicato da slot per i riquadri che verranno messi all'interno per la ricerca */
+    { 
+      width:95%; 
+      margin:0 auto; 
+      max-height: 150px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+      background-color:#ffffff;
+      margin-top: 10px;
+      padding: 10px 10px 10px 10px;
+      display:table;
+    }
+
+    #search_bar /* div con le proprieta' per come disporre gli elementi all'interno del search_slot */
+    { 
+    	height:90%;
+      margin:0 auto;
+      display:inline-block;
+      vertical-align: middle;
+      display:table-cell;
+      padding: 0px 10px 0px 10px;
+    }
+
+    #main_zone /* div dedicato al riquadro dove avverra' la stampa degli annunci */
+    { 
+      width:95%; 
+      height: 70%;
+      margin:0 auto; 
+      margin-top:10px;
+      padding: 10px 0px 10px 0px;
+      overflow:auto;
+    }
+
+    *{font-family:Arial;}
+    a {text-decoration: none}
+    
+    #backgroundmenu 
+    { 
+		  margin:0 auto; 
+      width: 1%;
+      display:inline-block;
+      display:table-cell;
+      padding: 10px 10px 10px 10px;
+    } 
+    
+    #slot_prodotto /* div dedicato con proprieta' che definiscono il riquadro dove vengono stampate le info dell'annuncio */
+    { 
+      width:90%; 
+      margin:0 auto; 
+      max-height: 150px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+      background-color:#ffffff;
+      margin-top: 10px;
+      padding: 10px 10px 10px 10px;
+      display:table;
+    }
+    
+    #slot_immagine /* div dedicato all'immagine dell'annuncio */
+    { 
+    	border-style: solid;
+    	border-color: rgba(255,165,0);
+    	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5), 0 3px 10px 0 rgba(0,0,0,0.5);
+      width: 1%;
+      display:inline-block;
+      display:table-cell;
+    }
+    
+    #slot_dati /* div dedicato alle informazioni dell'annuncio */
+    { 
+    	height:90%;
+      display:inline-block;
+      vertical-align: middle;
+      display:table-cell;
+      padding: 0px 10px 0px 10px;
+      width:30%;
+    }
+
+    #slot_pulsanti /* div accanto all'annuncio dedicato a possibili funzioni sull'annuncio come aggiunta di annuncio in una lista */
+    { 
+    	height:90%;
+      margin:0 auto;
+      display:inline-block;
+      vertical-align: middle;
+      display:table-cell;
+      padding: 0px 10px 0px 10px;
+      width:70%;
+      text-align:center;
+    }
+
+    body 
+    {
+      font-family: "ma";
+      background-image: url("img/backgroundmenu.jpg");
+    	background-size: cover;                    
+    	background-repeat: no-repeat;
+    	background-position: center; 
+    }
+
+    img 
+    {
+      cursor: pointer;
+    }
+    
+    .select
+    {
+      background-color: rgba(255,165,0);
+      border-style: solid;
+    	border-color: rgba(255,165,0);
+      color: white;
+      padding: 14px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+		  width:13%;
+    }
+	
+    .input
+    {
+      background-color: rgba(255,165,0); /* Orange */
+      border-style: solid;
+    	border-color: rgba(255,165,0);
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+		  width:50%;
+    }
+    
+    .button_chart 
+    {
+      background-color: rgba(255,165,0); /* Orange */
+      border-style: solid;
+    	border-color: rgba(255,165,0);
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+		  width:20%;
+    }
+    
+    .button 
+    {  
+      background-color: rgba(255,165,0); /* Orange */
+      border-style: solid;
+    	border-color: rgba(255,165,0);
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+		  width:20%;
+    }
+     
+    .button span 
+    {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .button span:after 
+    {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .button:hover span 
+    {
+      padding-right: 25px;
+    }
+
+    .button:hover span:after 
+    {
+      opacity: 1;
+      right: 0;
+    }
+
+    .button:active 
+    {
+      box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 0px 0 rgba(0,0,0,0.19);
+      transform: translateY(2px);
+    }
+

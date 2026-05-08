@@ -1,0 +1,35 @@
+<!--
+    Nome: Matteo
+	Cognome: Lattanzio
+
+	admin_zone.php: pagina html dove vengono visualizzate le operazioni dell'amminitratore tra cui la visualizzazione dell'elenco dei
+					utenti registrati al sito, elenco dei prodotti registrati nel sistema e la possibilita' di eliminare gli annunci.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="css/graficaPagine.css" rel="stylesheet" type="text/css">
+        <title>Amministratore AdsSite</title>
+    </head>
+
+	<body>
+		<div id="total_zone">
+            <div id="admin_main_zone">
+                <h2>Zona Admin</h2>
+                    <table>
+                        <tr><td> Elenco Utenti nel sito: </td><td><a href="universal_visual.php?content=0" class ="admininput" >Elenco utenti</a><br></td></tr>
+                        <tr><td> Elenco annunci totali: </td><td><a href="universal_visual.php?content=1" class ="admininput" >Elenco prodotti</a><br></td></tr>
+                    </table>
+            </div>
+        </div>
+
+        <div id="validation">
+            <p>   
+                <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+        </div>
+        
+    </body>
+</html>
