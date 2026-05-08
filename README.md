@@ -54,3 +54,60 @@ Il database MySQL contiene le seguenti tabelle:
 - Controllo accesso tramite sessioni PHP
 - Scadenza automatica sessione
 
+------------------------------------------------------------------------
+
+# AdsSite - Web Technologies Project
+
+Web application developed using PHP, MySQL, HTML, CSS, and JavaScript that allows registered users to publish, search, and save advertisements through a platform with authentication and session management.
+
+## Features
+
+- User registration and login
+- Session management
+- Advertisement search by category and area
+- Personal advertisement publishing
+- Favorites list
+- Admin panel
+- Client-side and server-side input validation
+- SQL Injection protection
+- Use of AJAX for dynamic operations
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- AJAX
+- PHP
+- MySQL
+- XAMPP
+
+## Project Structure
+
+- `index.html` → login page
+- `index_registrazione.html` → user registration
+- `mainpageUtente.php` → main user page
+- `ricerca.php` → advertisement search
+- `login.php` → authentication
+- `registrazione.php` → account creation
+- `core.php` → database connection
+- `session.php` → session management
+- `Admin_zone.html` → admin panel
+
+## Database
+
+The MySQL database contains the following tables:
+
+- Iscritto
+- Annuncio
+- Categoria
+- Zona
+- ListaPreferiti
+
+## Security
+
+- Passwords encrypted with `password_hash()`
+- Password verification using `password_verify()`
+- SQL Injection protection with `mysqli_real_escape_string()`
+- Access control through PHP sessions
+- Automatic session expiration
